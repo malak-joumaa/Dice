@@ -12,10 +12,10 @@ img1[0].src = img_src[dice1];
 img2[0].src = img_src[dice2];
 
 if(dice1>dice2){
-    h1[0].innerText="Player 1 Wins!"
+    h1[0].innerHTML="&#128681 Player 1 Wins!"
 }
 else if(dice2>dice1){
-    h1[0].innerText="Player 2 Wins!"
+    h1[0].innerHTML="&#128681 Player 2 Wins!"
 }
 else{
     h1[0].innerText="Draw!"
